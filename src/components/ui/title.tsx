@@ -7,12 +7,12 @@ export default function Title({ heading, subtext, level, className }) {
   return (
     <div className="text-center">
       <HeadingTag
-        className={`text-gray-900 dark:text-white  ${className} font-bold`}
+        className={`text-gray-900 a:text-white  ${className} font-bold`}
       >
         {heading}
       </HeadingTag>
       {subtext && (
-        <div className="mt-8 text-gray-700 dark:text-gray-300">{subtext}</div>
+        <div className="mt-8 text-gray-700 a:text-gray-300">{subtext}</div>
       )}
     </div>
   );

@@ -12,7 +12,7 @@ export default function Features() {
         <Container>
           <div>
             <Title
-              className="my-8 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl"
+              className="my-8 text-2xl font-bold text-gray-700 a:text-white md:text-4xl"
               heading="Your Trusted Source on Canadian Immigration"
               subtext={
                 <p className="w-[60%] text-center mx-auto">
@@ -27,7 +27,7 @@ export default function Features() {
               level="h4"
             />
           </div>
-          <div className="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
+          <div className="mt-16 grid divide-x divide-y divide-gray-100 a:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 a:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
             {featuresList.map((item) => (
               <FeatureCard
                 key={item.title}
@@ -56,17 +56,15 @@ function FeatureCard({
   icon?: string;
 }) {
   return (
-    <div className="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+    <div className="group relative bg-white a:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
       <div className="relative space-y-8 py-12 p-8">
         <Icon icon={icon} className="text-6xl text-secondary" />
 
         <div className="space-y-2">
-          <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
+          <h5 className="text-xl font-semibold text-gray-700 a:text-white transition group-hover:text-secondary">
             {title}
           </h5>
-          <p className="text-gray-600 dark:text-gray-300 text-sm">
-            {description}
-          </p>
+          <p className="text-gray-600 a:text-gray-300 text-sm">{description}</p>
         </div>
       </div>
     </div>

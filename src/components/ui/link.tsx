@@ -12,7 +12,7 @@ export default function LinkButton({ href, variant, className, children }) {
     plain: "block md:px-4 transition hover:text-primary",
     light: "text-gray-600 hover:text-primary font-light text-sm ",
     secondary:
-      " font-semibold before:border  before:border-transparent before:bg-primary/10 before:bg-gradient-to-b dark:before:border-gray-700 dark:before:bg-gray-800 text-primary dark:text-white",
+      " font-semibold before:border  before:border-transparent before:bg-primary/10 before:bg-gradient-to-b a:before:border-gray-700 a:before:bg-gray-800 text-primary a:text-white",
   };
 
   const variantStyles = variants[variant] || "";

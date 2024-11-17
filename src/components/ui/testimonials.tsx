@@ -3,10 +3,10 @@ import Container from "./container";
 
 export default function Testimonials() {
   return (
-    <div className="text-gray-600 dark:text-gray-300" id="testimonials">
+    <div className="text-gray-600 a:text-gray-300" id="testimonials">
       <Container>
         <div className="mb-20 space-y-4 px-6 md:px-0">
-          <h2 className="text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
+          <h2 className="text-center text-2xl font-bold text-gray-800 a:text-white md:text-4xl">
             Testimonials
           </h2>
         </div>
@@ -57,7 +57,7 @@ export default function Testimonials() {
           ].map((item, index) => (
             <div
               key={index}
-              className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none"
+              className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white a:bg-gray-800 a:border-gray-700 shadow-2xl shadow-gray-600/10 a:shadow-none"
             >
               <div className="flex gap-4">
                 <img
@@ -69,10 +69,10 @@ export default function Testimonials() {
                   loading="lazy"
                 />
                 <div>
-                  <h6 className="text-lg font-medium text-gray-700 dark:text-white">
+                  <h6 className="text-lg font-medium text-gray-700 a:text-white">
                     {item.name}
                   </h6>
-                  <p className="text-sm text-gray-500 dark:text-gray-300">
+                  <p className="text-sm text-gray-500 a:text-gray-300">
                     {item.role}
                   </p>
                 </div>

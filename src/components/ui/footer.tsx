@@ -13,7 +13,7 @@ export default function Footer() {
             className="flex space-x-1 justify-center items-center"
           >
             <div className="h-6 w-2 bg-primary"></div>
-            <span className="text-xl font-bold text-gray-900 dark:text-white pl-2">
+            <span className="text-xl font-bold text-gray-900 a:text-white pl-2">
               Swastik Immigrations
             </span>
           </div>

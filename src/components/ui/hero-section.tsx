@@ -16,7 +16,7 @@ export default function HeroSection() {
               heading={
                 <>
                   How can we help you <br />
-                  <span className="text-primary dark:text-white">
+                  <span className="text-primary a:text-white">
                     immigrate to Canada?
                   </span>
                 </>
